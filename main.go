@@ -10,8 +10,8 @@ func handlerFunc(w http.ResponseWriter, r *http.Request) {
 }
 
 func main()  {
-	http.HandleFunc("/", handlerFunc);
-	fmt.Println("Listening on port 3000")
+	http.HandleFunc("/", handlerFunc)
+	fmt.Println("Listening on port :3000")
 	http.ListenAndServe(":3000", nil)
 
 }
