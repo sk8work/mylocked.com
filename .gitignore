@@ -1,3 +1,5 @@
 *.exe
 *.test
 *.prof
+
+#Dont include binary
